@@ -16,9 +16,15 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10vh;
+}
+
+h1 {
+    color: #C9B037;
 }
 
 .texto {
+    color: #EFE5D8;
     text-align: justify;
     max-width: 600px;
     margin: 0 auto;
