@@ -1,3 +1,27 @@
+/* Configurando Layout */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+}
+
+footer a {
+    color: #bb86fc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 /* Estilo que sera usado em todas as paginas */
 body {
     background-color: #121212;
@@ -14,6 +38,12 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #1f1f1f;
+    padding: 10px;
 }
 
 nav ul {
