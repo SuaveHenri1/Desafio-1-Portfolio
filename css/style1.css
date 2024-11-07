@@ -1,0 +1,46 @@
+/* Seção de apresentação */
+.apresentacao .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+}
+
+/* Imagem */
+.foto-perfil {
+    border-radius: 50%;
+    height: 200px;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+
+h1 {
+    color: #C9B037;
+}
+
+.texto {
+    color: #EFE5D8;
+    text-align: justify;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding: 20px;
+    font-size: 18px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .apresentacao .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foto-perfil {
+        margin-bottom: 20px;
+    }
+}
