@@ -11,9 +11,10 @@ html, body {
 
 /* Estilo que sera usado em todas as paginas */
 body {
-    background-color: #1A0E05;
-    color: #e0e0e0;
+    background-color: #120A03;
+    color: #333333;
     font-family: 'Merriwather', serif;
+    font-size: large;
     font-weight: 400;
     line-height: 1.6;
     margin: 0;
@@ -24,21 +25,21 @@ h1 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
     font-style: normal;
-    color: #C9B037;
+    color: #C8A034;
 }
 
 h2, h3 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
     font-style: normal;
-    color: #C9B037;
+    color: #C8A034;
 }
 
 em {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
     font-style: italic;
-    color: #C9B037;
+    color: #C8A034;
 }
 
 /* Menu de navegação */
