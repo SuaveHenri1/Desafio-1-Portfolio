@@ -1,3 +1,6 @@
+/* Fontes importados Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 /* Configurando Layout */
 html, body {
     height: 100%;
@@ -8,11 +11,54 @@ html, body {
 
 /* Estilo que sera usado em todas as paginas */
 body {
-    background-color: #1A0E05;
-    color: #e0e0e0;
-    font-family: Arial, sans-serif;
+    background-color: #1d1005;
+    color: #333333;
+    font-family: 'Merriwather', serif;
+    font-size: large;
+    font-weight: 400;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #C8A034;
+}
+
+h2, h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #C8A034;
+}
+
+em {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #C8A034;
+}
+
+.conteiner {
+    background-color: #F5EDE0;
+    color: black;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.conteiner p, .conteiner ul li {
+    color:#333333;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 /* Menu de navegação */
@@ -56,13 +102,51 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: #3E2E20;
+    color: #C9B037;
+}
+
+footer p {
+    color: #C9B037;
+    text-decoration: none;
 }
 
 footer a {
     color: #C9B037;
     text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #EFE5D8;
+    border-radius: 8px;
+    margin: 5px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 footer a:hover {
-    text-decoration: underline;
+    background-color: #D4AF37;
+    color: #ffffff;
 }
+
+/* Resposividade */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .conteiner {
+        padding: 15px;
+    }
+
+    footer a {
+        display: block;
+        margin: 8px;
+    }
+}
+

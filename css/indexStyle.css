@@ -16,7 +16,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 h1 {
@@ -31,16 +32,4 @@ h1 {
     line-height: 1.5;
     padding: 20px;
     font-size: 18px;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-    .apresentacao .container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .foto-perfil {
-        margin-bottom: 20px;
-    }
 }
