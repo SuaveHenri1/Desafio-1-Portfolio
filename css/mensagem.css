@@ -1,0 +1,35 @@
+.mensagens-conteiner {
+    background-color: #EFE5D8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    color: black;
+}
+
+.mensagem {
+    background-color: #FFF;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mensagem p {
+    margin: 5px 0;
+}
+
+.apagar-button {
+    background-color: #C0392B;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.apagar-button:hover {
+    background-color: #E74C3C;
+}
